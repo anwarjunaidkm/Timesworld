@@ -54,9 +54,9 @@ const Home = () => {
         <div className='hidden md:block'>
 
             <ul className="flex gap-4 justify-center items-center text-[#3D3D3D] text-[16px] cursor-pointer  ">
-              <li className=" hover:text-[#8B8B8B]" onClick={() => handleRegionClick('All')} >All</li>
-              <li className=" hover:text-[#8B8B8B]"onClick={() => handleRegionClick('Asia')}>Asia</li>
-              <li className=" hover:text-[#8B8B8B]" onClick={() => handleRegionClick('Europe')}>Europe</li>
+              <li className=" hover:text-[#8B8B8B] inline border-b-2 border-[#3D3D3D]" onClick={() => handleRegionClick('All')} >All</li>
+              <li className=" hover:text-[#8B8B8B] inline border-b-2 border-[#3D3D3D] "onClick={() => handleRegionClick('Asia')}>Asia</li>
+              <li className=" hover:text-[#8B8B8B] inline border-b-2 border-[#3D3D3D] " onClick={() => handleRegionClick('Europe')}>Europe</li>
             </ul>
         </div>
 
