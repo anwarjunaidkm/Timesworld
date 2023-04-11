@@ -1,0 +1,5 @@
+export {default as men} from "./men.png"
+export {default as fb} from "./fb.png"
+export {default as google} from "./google.png"
+export {default as linked} from "./linked.png"
+export {default as tw} from "./tw.png"
